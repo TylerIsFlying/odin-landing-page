@@ -1,15 +1,33 @@
 * {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+}
+body {
     color: white;
-
 }
 .hero {
-    display: flex;
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-color: #1F2937;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.hero > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+    flex: 1;
+}
+li > a {
+    color: red;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin-inline-end: 75px;
 }
