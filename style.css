@@ -9,7 +9,7 @@
 }
 .hero {
     display: flex;
-    height: 50px;
+    height: 150px;
     width: 100%;
     background-image: linear-gradient(to right,#410b5a,#510e88);
 }
